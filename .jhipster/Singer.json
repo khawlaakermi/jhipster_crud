@@ -1,0 +1,35 @@
+{
+  "fluentMethods": true,
+  "clientRootFolder": "",
+  "relationships": [
+    {
+      "relationshipName": "avoir_album",
+      "otherEntityName": "albums",
+      "relationshipType": "one-to-many",
+      "otherEntityRelationshipName": "singerr"
+    }
+  ],
+  "fields": [
+    {
+      "fieldName": "fname",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "lname",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "adress",
+      "fieldType": "String"
+    }
+  ],
+  "changelogDate": "20201226092611",
+  "dto": "mapstruct",
+  "searchEngine": false,
+  "service": "serviceImpl",
+  "entityTableName": "singer",
+  "databaseType": "sql",
+  "readOnly": false,
+  "jpaMetamodelFiltering": false,
+  "pagination": "no"
+}
